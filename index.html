@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toastaku – Digital Marketing Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #000;
+      color: #fff;
+      padding: 1rem;
+      overflow-x: hidden;
+    }
+    header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    h1 {
+      font-size: 2.8rem;
+      color: #1DB954;
+    }
+    .subtitle {
+      font-size: 1rem;
+      opacity: 0.85;
+      margin-top: 0.25rem;
+    }
+    .section {
+      margin-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 16px;
+      background-color: #121212;
+      box-shadow: 0 0 15px rgba(0, 255, 120, 0.1);
+      animation: popIn 0.5s ease forwards;
+    }
+    .section h2 {
+      font-size: 1.25rem;
+      margin-bottom: 1rem;
+      color: #1DB954;
+    }
+    .bubble-box {
+      background-color: #1a1a1a;
+      border-radius: 20px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      transition: all 0.3s ease;
+    }
+    .bubble-box:hover {
+      background-color: #262626;
+      box-shadow: 0 0 8px #1DB954;
+    }
+    a {
+      color: #1DB954;
+      text-decoration: none;
+    }
+    ul {
+      padding-left: 1.25rem;
+      margin-top: 0.5rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(-10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes popIn {
+      from { opacity: 0; transform: scale(0.95); }
+      to { opacity: 1; transform: scale(1); }
+    }
+    .now-playing-bar {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background-color: #181818;
+      color: #fff;
+      padding: 0.8rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+      border-top: 1px solid #1DB954;
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.4);
+      animation: slideUp 1.2s ease forwards;
+    }
+    @keyframes slideUp {
+      from { transform: translateY(100%); }
+      to { transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Toastaku</h1>
+    <p class="subtitle">Digital Marketing Intern | Meta Ads Specialist | Music Brand Builder</p>
+    <p class="subtitle">📧 itachi54934@gmail.com | 🌐 <a href="https://toastaku.carrd.co" target="_blank">toastaku.carrd.co</a></p>
+  </header>
+
+  <section class="section">
+    <h2>🧠 Profile Summary</h2>
+    <div class="bubble-box">
+      Creative and analytical digital marketer with hands-on experience running global Meta ad campaigns, designing high-performing creatives, and growing a music brand from scratch to 1.5M+ streams. Skilled in Canva, Photoshop, After Effects, and Notion — driven by results and self-learning. Seeking opportunities in creative and performance marketing teams.
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>📊 Digital Marketing Experience</h2>
+    <div class="bubble-box">
+      <strong>Toastaku (Self-Owned Music Brand)</strong><br>
+      <em>July 2023 – Present | Remote</em>
+      <ul>
+        <li>🎯 Ran Meta Ads with ₹30K+ spend across Tier 1–2 countries and India</li>
+        <li>📈 Achieved 207K+ reach and 4,500+ website content views</li>
+        <li>📉 Optimized CPC to as low as ₹0.89 per view</li>
+        <li>🎨 Designed ad creatives in Canva, Photoshop, and After Effects</li>
+        <li>📌 Created SEO-optimized Pinterest pins and CTA cards</li>
+        <li>🧃 Scaled brand to <strong>1.5M+ streams</strong> and <strong>17K+ monthly listeners</strong></li>
+        <li>🎮 Featured in popular playlists like Pokémon Lofi (100K+ saves)</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🛠️ Tools & Skills</h2>
+    <div class="bubble-box">
+      <ul>
+        <li>Platforms: Meta Ads, Business Suite</li>
+        <li>Design: Canva, Photoshop, After Effects</li>
+        <li>Content: Notion, Pinterest, Spotify Artist Pick</li>
+        <li>Strategies: Funnel building, targeting, optimization</li>
+        <li>Qualities: Self-taught, creative, results-driven</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>🌍 Languages</h2>
+    <div class="bubble-box">
+      <ul>
+        <li>English – Fluent</li>
+        <li>Hindi – Fluent</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>💬 References & Work</h2>
+    <div class="bubble-box">
+      Available on request or viewable in my <a href="https://toastaku.carrd.co" target="_blank">artist site</a>.
+    </div>
+  </section>
+
+  <div class="now-playing-bar">
+    <span>🎧 Toastaku – Lofi Game & Anime Covers</span>
+    <span>Now Playing</span>
+  </div>
+</body>
+</html>
